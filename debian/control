@@ -1,0 +1,16 @@
+Source: chip-mali-userspace
+Section: libs
+Priority: extra
+Maintainer: Next Thing Co. <software@nextthing.co>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: nextthing.co
+Github: github.com/nextthingco
+
+Package: chip-mali-userspace
+Architecture: armhf
+Provides:  libegl1-mesa,libegl1-mesa-dbg,libegl1-mesa-dev,libegl1-mesa-drivers,libegl1-mesa-drivers-dbg,libgles1-mesa,libgles1-mesa-dbg,libgles1-mesa-dev,libgles2-mesa,libgles2-mesa-dbg,libgles2-mesa-dev,libgles2,libgles1,libegl1-x11,libegl1, libwayland-egl1, libwayland-egl1-mesa, libwayland-egl1-mesa-dbg
+Conflicts: libegl1-mesa,libegl1-mesa-dbg,libegl1-mesa-dev,libegl1-mesa-drivers,libegl1-mesa-drivers-dbg,libgles1-mesa,libgles1-mesa-dbg,libgles1-mesa-dev,libgles2-mesa,libgles2-mesa-dbg,libgles2-mesa-dev,libgles2,libgles1,libegl1-x11,libegl1, libwayland-egl1, libwayland-egl1-mesa, libwayland-egl1-mesa-dbg
+Replaces:  libegl1-mesa,libegl1-mesa-dbg,libegl1-mesa-dev,libegl1-mesa-drivers,libegl1-mesa-drivers-dbg,libgles1-mesa,libgles1-mesa-dbg,libgles1-mesa-dev,libgles2-mesa,libgles2-mesa-dbg,libgles2-mesa-dev,libgles2,libgles1,libegl1-x11,libegl1, libwayland-egl1, libwayland-egl1-mesa, libwayland-egl1-mesa-dbg
+Multi-Arch: same
+Description: CHIP Mali binary driver
